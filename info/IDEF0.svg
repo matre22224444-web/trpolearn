@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 9.03 Build 54978)  -->
+<svg version="1.1" id="Слой_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1875 843" style="enable-background:new 0 0 1875 843;" xml:space="preserve">
+<style type="text/css">
+	.Тень{fill:none;}
+	.Внешнее_x0020_свечение_x0020_5_x0020_pt_x002E_{fill:none;}
+	.Синий_x0020_неон{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+	.Выделение_x0020_желтым{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
+	.Джайв_GS{fill:#FFDD00;}
+	.Алиса_GS{fill:#A6D0E4;}
+	.st0{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="6.123234e-17" y2="-1">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g>
+	<path class="st0" d="M1424,245v395H507V245H1424 M1431,238H500v409h931V238L1431,238z"/>
+</g>
+<g>
+	<path class="st0" d="M481.5,450H8.5c-1.9,0-3.5,1.6-3.5,3.5s1.6,3.5,3.5,3.5h473c1.9,0,3.5-1.6,3.5-3.5S483.4,450,481.5,450
+		L481.5,450z"/>
+</g>
+<g>
+	<polygon class="st0" points="471,440.3 493,453 471,465.7 	"/>
+	<path class="st0" d="M474.5,446.4L486,453l-11.5,6.6V446.4 M467.5,434.3v37.5L500,453L467.5,434.3L467.5,434.3z"/>
+</g>
+<g>
+	<path class="st0" d="M965-4.3v225.4c0,1.9,1.6,3.5,3.5,3.5s3.5-1.6,3.5-3.5V-4.2c-0.9,0.1-1.8,0.1-2.7,0.1
+		C967.8-4,966.4-4.1,965-4.3L965-4.3z"/>
+</g>
+<g>
+	<polygon class="st0" points="956.3,209.6 981.7,209.6 969,231.6 	"/>
+	<path class="st0" d="M975.6,213.1l-6.6,11.5l-6.6-11.5H975.6 M987.8,206.1h-37.5l18.8,32.5L987.8,206.1L987.8,206.1z"/>
+</g>
+<g>
+	<polygon class="st0" points="955.6,672.6 968.7,650.9 981,673.1 	"/>
+	<path class="st0" d="M968.6,657.9l6.4,11.6l-13.3-0.3L968.6,657.9 M968.9,643.9L949.4,676l37.5,0.8L968.9,643.9L968.9,643.9z"/>
+</g>
+<g>
+	<path class="st0" d="M965,665.4v191.2c1.6-0.3,3.2-0.4,4.9-0.4c0.7,0,1.4,0,2.1,0.1V665.5c-0.9,0.1-1.8,0.1-2.7,0.1
+		C967.8,665.7,966.4,665.6,965,665.4L965,665.4z"/>
+</g>
+<g>
+	<path class="st0" d="M1860.7,450h-426.2c-1.9,0-3.5,1.6-3.5,3.5s1.6,3.5,3.5,3.5h426.8c-0.3-1.7-0.5-3.5-0.6-5.2
+		C1860.7,451.2,1860.7,450.6,1860.7,450L1860.7,450z"/>
+</g>
+<g>
+	<polygon class="st0" points="1848.4,440.3 1870.4,453 1848.4,465.7 	"/>
+	<path class="st0" d="M1851.9,446.4l11.5,6.6l-11.5,6.6V446.4 M1844.9,434.2v37.5l32.5-18.8L1844.9,434.2L1844.9,434.2z"/>
+</g>
+</svg>

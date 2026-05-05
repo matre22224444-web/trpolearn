@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 9.03 Build 54978)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.Тень{fill:none;}
+	.Внешнее_x0020_свечение_x0020_5_x0020_pt_x002E_{fill:none;}
+	.Синий_x0020_неон{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+	.Выделение_x0020_желтым{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
+	.Джайв_GS{fill:#FFDD00;}
+	.Алиса_GS{fill:#A6D0E4;}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'FranklinGothic-Heavy';}
+	.st6{font-size:14px;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:133.3333;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="6.123234e-17" y2="-1">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g id="Слой_1" class="st0">
+	<g class="st1">
+		<rect x="-1" y="0" width="100" height="101"/>
+	</g>
+</g>
+<g id="Слой_2">
+	<path class="st2" d="M84.5,95H15.5C9.7,95,5,90.3,5,84.5V15.5C5,9.7,9.7,5,15.5,5h68.9C90.3,5,95,9.7,95,15.5v68.9
+		C95,90.3,90.3,95,84.5,95z"/>
+	<rect x="22" y="77.3" class="st3" width="62" height="13.5"/>
+	<text transform="matrix(1 0 0 1 22 86.6406)" class="st4 st5 st6">УДАЛИТЬ</text>
+	<path class="st7" d="M31.5,22.5h37.4l-3.4,39c0,0,0,4-3,5s-23.2,0-23.2,0s-4.8,0-4.8-4S31.5,22.5,31.5,22.5z"/>
+	<line class="st7" x1="25.7" y1="22.5" x2="73.1" y2="22.5"/>
+	<path class="st7" d="M42.5,21.5c0,0,0-5,4-6s8.1,0,8.1,0s2.9,0,2.9,5"/>
+	<line class="st7" x1="42.5" y1="31.5" x2="42.5" y2="57.3"/>
+	<line class="st7" x1="50.2" y1="31.5" x2="50.2" y2="57.3"/>
+	<line class="st7" x1="57.5" y1="31.5" x2="57.5" y2="57.3"/>
+</g>
+</svg>
