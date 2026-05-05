@@ -1,0 +1,32 @@
+.Helper{
+    top:25%;
+    left: 10%;
+    position:fixed;
+    width: 15%;
+    height: 20%;
+    text-align: center;
+    z-index: 40;
+    transition-duration: 1s;
+    display: block;
+}
+
+.eyes{position: absolute;
+      top:40%;
+      left: 25%;
+      width: 50%;
+    z-index: 45;}
+.eyes:hover{
+    width: 55%;
+    left: 22%;
+}
+.TextRobots{
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    opacity: 0;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+    
+}

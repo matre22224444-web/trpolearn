@@ -1,0 +1,444 @@
+.fon{position: fixed;
+    z-index: -5;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;}
+.dopfon{z-index: 0;
+        height: 100%;
+        width: 100%;}
+.dopfon img{width: 100%;
+    height: 100%;
+    object-fit: contain;}
+.centerRaspolozhenie{
+    position: fixed;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    transition-duration: 1s;
+}
+.centerRaspolozhenie img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.vlevoRaspolozhenie{
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 0%;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.vlevoRaspolozhenieOff{
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 0%;
+    opacity: 0;
+    transition-duration: 1s;
+    pointer-events: none; 
+    visibility: hidden; 
+    display: none !important;
+}
+
+.vlevoRaspolozhenie img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.pravoRaspolozhenie{
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 80%;
+    opacity: 1;
+    transition-duration: 1s;
+}
+.pravoRaspolozhenieOff {
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 80%;
+    opacity: 0;
+    transition-duration: 1s;
+    pointer-events: none; 
+    visibility: hidden; 
+    display: none !important;
+    transition-duration: 1s;
+}
+.pravoRaspolozhenie img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.puntkYprav{
+    position: fixed;
+    height: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    left: 30%;
+    top:80%;
+    justify-content: center;
+}
+.puntkYprav svg{
+    height: 90%;
+    margin-left:20px ;
+    margin-right:20px ;
+}
+#pr path, #vl path, #cen path {
+    transition: fill 0.5s ease, stroke 0.5s ease; 
+}
+.dop1{
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.dop2{
+    position: fixed;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.dop3{
+    position: fixed;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.dopfon{transition-duration: 0.5s;}
+.glavmenu{display: none;
+          opacity: 0;}
+.Teorimenu{display: none;
+           opacity: 0;}
+.testmenu{display: none;
+           opacity: 0;}
+.gravmenu{display: none;
+           opacity: 0;}
+.ter1, .ter2, .ter3, .ter4, .ter5,.ter6,.ter7,.ter8,.ter9,.ter10,.ter11,.ter12,.ter13,.ter14,.ter15,.ter16,.ter17,.ter18,.ter19,.ter22,.ter23,.ter24,.ter25,.ter26,.ter27,.ter28,.ter29,.ter30,.ter31,.ter32,.ter33,.ter34,.ter35,.ter36,.ter37,.ter38{justify-content: center;
+      display: flex;
+      flex-direction: column}
+.teoria1, .teoria2, .teoria3, .teoria4, .teoria5,.teoria6,.teoria7,.teoria8,.teoria9,.teoria10,.teoria11,.teoria12,.teoria13,.teoria14,.teoria15,.teoria16,.teoria17,.teoria18,.teoria19,.teoria22,.teoria23,.teoria24,.teoria25,.teoria26,.teoria27,.teoria28,.teoria29,.teoria30,.teoria31,.teoria32,.teoria33,.teoria34,.teoria35,.teoria36,.teoria37,.teoria38{opacity: 0;
+         display: none;
+         transition-duration: 0.5s;
+         width: 100%;
+         height: 100%}
+
+
+.nameteoria{
+    color:#f0f9ff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 30px;
+    width: 60%;
+    left: 20%;
+    position: relative;
+    text-align: center;
+}
+.blockteorii{width: 60%;
+             border-style:solid;
+             border-radius:20px;
+             margin-top: 40px;
+             margin-left: auto;
+             margin-right: auto;
+             border-width: 5px;
+             border-color:transparent;
+             background:linear-gradient(rgba(26, 77, 112, 0.5),rgba(26, 77, 112, 0.5))padding-box, linear-gradient(to right, #3fa3cf, #2e6b8f, #6bc4e6);
+             color: #f0f9ff;
+             padding: 10px;
+             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 1.5;
+             letter-spacing: 0.01em;
+            }
+.test{opacity: 0;
+      display: block;}
+.grav{opacity: 0;
+      display: none;
+      overflow-y: none;
+      }
+.testbox{width: 900px;
+             border-style:solid;
+             border-radius:20px;
+             margin-top: 20px;
+             margin-left: auto;
+             margin-right: auto;
+             background: rgba(13, 31, 82);
+             border: solid #0f5eaf;
+             color: #ffffff;
+             padding: 10px;
+             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 1.5;
+             letter-spacing: 0.01em;
+            }
+.voprosbox{width: 900px;
+             border-style:solid;
+             border-radius:20px;
+             margin-top: 20px;
+             margin-left: auto;
+             margin-right: auto;
+             border-color:#0f5eaf;
+             background:rgb(15, 38, 99);
+             color: #f0f9ff;
+             padding: 10px;
+             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 1.5;
+             letter-spacing: 0.01em;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+             max-width: 100%;
+              box-sizing: border-box;}
+.otvetbox{display: flex;
+          flex-direction: column;}
+
+
+.osnofinfo{
+    display: none !important;
+    position: fixed;
+    top:2%;
+    left: 95%;
+}
+.BackButton{
+    display: none !important;
+    position: fixed;
+    top:2%;
+    left: 3%;}
+.boxosnofinfo{
+            display: none;
+opacity: 0;
+left: 77%;
+top: 6%;
+width: 20%;
+position: fixed;
+border-style: solid;
+border-radius: 20px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-width: 5px;
+border-color: transparent;
+background: linear-gradient(rgba(26, 77, 112, 0.5), rgba(26, 77, 112, 0.5)) padding-box, linear-gradient(to right, #3fa3cf, #2e6b8f, #6bc4e6);
+color: #f0f9ff;
+padding: 10px;
+font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.01em;
+word-wrap: break-word;
+transition-duration: 0.5s;
+
+overflow-y: auto;
+max-height: 80vh;
+}
+.color{color: #ff3d3d;}
+.Proverkatest{position: fixed;
+              display: none;
+              top:2%;
+              left: 92%;
+              border-color:#0f5eaf ;
+              background-color: rgb(15, 38, 99);
+              color: #ffffff;
+              border-radius:5px ;
+              font-size: 20px;}
+.ResultatTes{
+    display: none;
+    opacity: 0;
+left: 77%;
+top: 6%;
+width: 20%;
+position: fixed;
+border-style: solid;
+border-radius: 20px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-width: 5px;
+border-color:#0f5eaf;
+background-color:rgb(15, 38, 99) ;
+color: #f0f9ff;
+padding: 10px;
+font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.01em;
+word-wrap: break-word;
+transition-duration: 0.5s;
+
+
+max-height: 80vh;
+}
+.GravSvg{width: 100%;}
+.Puntkredakt{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    justify-content: left;
+    border-bottom-width:5px;
+    border-bottom-style:solid ;
+    border-color: white;
+}
+.ElementsRedakt{
+    object-fit: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 10;
+}
+.PoleRedact{
+    top:11%;
+    left:0;
+    width: 100%;
+    height: 90%;
+    position: fixed;
+}
+.BoxAddTextIdef0{
+    width: 50px;
+    position: fixed;
+    z-index: 20;
+}
+.BoxAddTextIdef01{
+    top:55%;
+    left:50%;
+}
+.BoxAddTextIdef02{
+    top:45%;
+    left:12%;
+}
+.BoxAddTextIdef03{
+    top:22%;
+    left:55%;
+}
+.BoxAddTextIdef04{
+    top:88%;
+    left:55%;
+}
+.BoxAddTextIdef05{
+    top:45%;
+    left:87%;
+}
+.BoxText{
+    position: fixed;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 40px;
+    overflow-wrap:break-word    
+}
+.BoxText1{
+    left: 35%;
+    top: 41%;
+}
+.BoxText2{
+    left: 2%;
+    top: 45%;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+}
+.BoxText3{
+    left: 53%;
+    top: 20%;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+}
+.BoxText4{
+    left: 53%;
+    top: 85%;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+}
+.BoxText5{
+    left: 78%;
+    top: 45%;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+}
+.TextVod{
+    position: fixed;
+    width:900px;
+    height: 100px;
+    left:27%;
+    top:88%;
+    border-color: #680fce;
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: #520088;
+    font-size: 30px;
+    display: none;
+    color:white;
+    z-index: 100;
+}
+.butOt{
+    position: fixed;
+    display: none;
+    border-color: #680fce;
+    background-color: #520088;
+    color:white;
+    top:93%;
+    left: 75%;
+    width:100px ;
+    height: 40px;
+    font-size:20px;
+    border-radius:10px ;
+}
+.Blockauto{
+    align-items: center;
+    text-align: center;
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-weight: bolder;
+          border-style:solid ;
+          border-width:5px;
+          border-radius: 20px;
+          border-color:#0f5eaf ;
+          background-color:rgb(15, 38, 99,0.2) ;
+          margin-left:35%;
+          margin-top:15% ;
+          }
+.Elementautorise{margin-bottom:30px ;
+                 margin-top:30px;
+                 }
+.ViborType{display: none;}
+.DopStrokAuto{display: none;}
+.VvodAuto{width: 70%;
+          border-color: #0f5eaf;
+          background-color:#0f5eaf;
+          font-size: 20px;
+          color: #ffffff;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          border-radius:8px;}
+.ButtonAuto{width: 20%;
+            border-color: #48a4ff;
+          background-color:#006edb;
+          border-radius:5px;
+        color: #ffffff;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-size: 20px;
+          font-weight:bold;}
+.Glosarii{
+    text-align: center;
+}

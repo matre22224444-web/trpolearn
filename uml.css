@@ -1,0 +1,102 @@
+.PunktInstruments{
+    justify-content: center;
+    display: block;
+    position: absolute;
+    flex-wrap: wrap;
+    top:0;
+    left: 0;
+    width: 8%;
+    height: 100%;
+    flex-direction: row;
+    align-content:flex-start;
+    border-style:solid ;
+    border-right-color:white;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+}
+.PunktRedacts{
+    position: absolute;
+    top:0;
+    left:8%;
+    width: 92%;
+    height: 100%;
+ 
+    z-index: 1;
+}
+.ElementsRedacts{
+    width: 30%;
+    margin: 10px;
+}
+.Elepseimg{
+  width: 200px;       
+  height: 100px;      
+  border-style:solid ;
+  border-color: white;
+  border-width:5px ;
+  border-radius: 50%; 
+  position: relative;
+}
+.Plus{
+    position: absolute;
+    width: 20%;
+    top:30%;
+    left: 40%;
+}
+.TextEleps{
+    position: absolute;
+    width: 75%;
+    height: 55%;
+    top: 18%;
+    left: 10%;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+}
+.TextVodUml{
+    position: fixed;
+    width:900px;
+    height: 100px;
+    left:27%;
+    top:88%;
+    border-color: #680fce;
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: #520088;
+    font-size: 30px;
+    display: none;
+    color:white;
+    z-index: 100;
+}
+.butOtUml{
+    position: fixed;
+    display: none;
+    border-color: #680fce;
+    background-color: #520088;
+    color:white;
+    top:93%;
+    left: 75%;
+    width:100px ;
+    height: 40px;
+    font-size:20px;
+    border-radius:10px ;
+    z-index: 1000;
+}
+.elipse{
+    z-index: 100;
+}
+.TextBig{
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.SmallBig{
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.UMLDIAGRAM{
+    display: none;
+}
