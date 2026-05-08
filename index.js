@@ -1,3 +1,4 @@
+const isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
 const BoxGlavmenu=[box1=document.getElementById("BoxGlav1"), box2=document.getElementById("BoxGlav2"), box3=document.getElementById("BoxGlav3")]
 const BoxTeormenu=[Trbox1=document.getElementById("Box1Teor"), Trbox2=document.getElementById("Box2Teor"),Trbox3=document.getElementById("Box3Teor"),Trbox4=document.getElementById("Box4Teor"), Trbox5=document.getElementById("Box5Teor"),Trbox6=document.getElementById("Box6Teor"),Trbox7=document.getElementById("Box7Teor"),Trbox8=document.getElementById("Box8Teor"),Trbox9=document.getElementById("Box9Teor"),Trbox10=document.getElementById("Box10Teor"),Trbox11=document.getElementById("Box11Teor"),Trbox12=document.getElementById("Box12Teor"), Trbox13=document.getElementById("Box13Teor"),Trbox14=document.getElementById("Box14Teor"),Trbox15=document.getElementById("Box15Teor"),Trbox16=document.getElementById("Box16Teor"),Trbox17=document.getElementById("Box17Teor"),Trbox18=document.getElementById("Box18Teor"),Trbox19=document.getElementById("Box19Teor"),Trbox20=document.getElementById("Box20Teor"),Trbox21=document.getElementById("Box21Teor"),Trbox22=document.getElementById("Box22Teor"),Trbox23=document.getElementById("Box23Teor"),Trbox24=document.getElementById("Box24Teor"),Trbox25=document.getElementById("Box25Teor"),Trbox26=document.getElementById("Box26Teor"),Trbox27=document.getElementById("Box27Teor"),Trbox28=document.getElementById("Box28Teor"),Trbox29=document.getElementById("Box29Teor"),Trbox30=document.getElementById("Box30Teor"),Trbox31=document.getElementById("Box31Teor"),Trbox32=document.getElementById("Box32Teor"),Trbox33=document.getElementById("Box33Teor"),Trbox34=document.getElementById("Box34Teor"),Trbox35=document.getElementById("Box35Teor"),Trbox36=document.getElementById("Box36Teor"),Trbox37=document.getElementById("Box37Teor"),Trbox38=document.getElementById("Box38Teor")]
 const BoxTestmenu=[Testbox1=document.getElementById("Box1Test"),Testbox2=document.getElementById("Box2Test"),Testbox3=document.getElementById("Box3Test"),Testbox4=document.getElementById("Box4Test"),Testbox5=document.getElementById("Box5Test"),Testbox6=document.getElementById("Box6Test"),Testbox7=document.getElementById("Box7Test"),Testbox8=document.getElementById("Box8Test"),Testbox9=document.getElementById("Box9Test"),Testbox10=document.getElementById("Box10Test"),Testbox11=document.getElementById("Box11Test"),Testbox12=document.getElementById("Box12Test")]
@@ -40,6 +41,8 @@ const BoxTer16=document.querySelectorAll(".teoria16")
 const Bo7=document.querySelectorAll(".teoria17")
 const BoxTer18=document.querySelectorAll(".teoria18")
 const BoxTer19=document.querySelectorAll(".teoria19")
+const BoxTer20=document.querySelectorAll(".teoria20")
+const BoxTer21=document.querySelectorAll(".teoria21")
 const BoxTer22=document.querySelectorAll(".teoria22")
 const BoxTer23=document.querySelectorAll(".teoria23")
 const BoxTer24=document.querySelectorAll(".teoria24")
@@ -137,6 +140,7 @@ function Sostsite(){
          Yprav.style.display=""
         BoxGlavmenu[0].classList.add("centerRaspolozhenie")
         BoxGlavmenu[1].classList.add("pravoRaspolozhenie")
+        Helper.className="Helper HelperOsnov"
         for(let i=0;i<BoxGlavmenu.length;i++){
             if(i>1){
                 BoxGlavmenu[i].classList.add("pravoRaspolozhenieOff")
@@ -147,6 +151,7 @@ function Sostsite(){
         Teorimenu.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{Teorimenu.forEach(function(item){item.style.opacity="1"})},600)
          Yprav.style.display=""
+         Helper.className="Helper HelperOsnov"
          BoxTeormenu[0].classList.add("centerRaspolozhenie")
          BoxTeormenu[1].classList.add("pravoRaspolozhenie")
          for(let i=0;i<BoxTeormenu.length;i++){
@@ -160,6 +165,7 @@ function Sostsite(){
         const time=setTimeout(()=>{Testmenu.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
          Yprav.style.display=""
+         Helper.className="Helper HelperOsnov"
          BoxTestmenu[0].classList.add("centerRaspolozhenie")
          BoxTestmenu[1].classList.add("pravoRaspolozhenie")
          for(let i=0;i<BoxTestmenu.length;i++){
@@ -173,6 +179,7 @@ function Sostsite(){
         const time=setTimeout(()=>{Gravmenu.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #2d0d52, #431683, #6b0faf)"
          Yprav.style.display=""
+         Helper.className="Helper HelperOsnov"
          BoxGravmenu[0].classList.add("centerRaspolozhenie")
          BoxGravmenu[1].classList.add("pravoRaspolozhenie")
     }
@@ -180,277 +187,303 @@ function Sostsite(){
         BoxTer1.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer1.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
+        
     }
     else if(SostSite==="Teoria2"){
         BoxTer2.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer2.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria3"){
         BoxTer3.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer3.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria4"){
         BoxTer4.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer4.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria5"){
         BoxTer5.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer5.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+       Helper.className="Helper HelperTer"
     }
      else if(SostSite==="Teoria6"){
         BoxTer6.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer6.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria7"){
         BoxTer7.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer7.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria8"){
         BoxTer8.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer8.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria9"){
         BoxTer9.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer9.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria10"){
         BoxTer10.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer10.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria11"){
         BoxTer11.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer11.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria12"){
         BoxTer12.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer12.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria13"){
         BoxTer13.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer13.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria14"){
         BoxTer14.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer14.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria15"){
         BoxTer15.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer15.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria16"){
         BoxTer16.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer16.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria17"){
         BoxTer17.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer17.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria18"){
         BoxTer18.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer18.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria19"){
         BoxTer19.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer19.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
+    }
+    else if(SostSite==="Teoria20"){
+        BoxTer20.forEach(function(item){item.style.display="block"})
+        const time=setTimeout(()=>{BoxTer20.forEach(function(item){item.style.opacity="1"})},600)
+        FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
+        Helper.className="Helper HelperTer"
+    }
+    else if(SostSite==="Teoria21"){
+        BoxTer21.forEach(function(item){item.style.display="block"})
+        const time=setTimeout(()=>{BoxTer21.forEach(function(item){item.style.opacity="1"})},600)
+        FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria22"){
         BoxTer22.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer22.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria23"){
         BoxTer23.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer23.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria24"){
         BoxTer24.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer24.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria25"){
         BoxTer25.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer25.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria26"){
         BoxTer26.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer26.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria27"){
         BoxTer27.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer27.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria28"){
         BoxTer28.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer28.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria29"){
         BoxTer29.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer29.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria30"){
         BoxTer30.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer30.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria31"){
         BoxTer31.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer31.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria32"){
         BoxTer32.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer32.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria33"){
         BoxTer33.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer33.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria34"){
         BoxTer34.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer34.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria35"){
         BoxTer35.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer35.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria36"){
         BoxTer36.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer36.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria37"){
         BoxTer37.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer37.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
-        Helper.style.left="2%"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Teoria38"){
         BoxTer38.forEach(function(item){item.style.display="block"})
         const time=setTimeout(()=>{BoxTer38.forEach(function(item){item.style.opacity="1"})},600)
         FON.style.background="linear-gradient( #1a4d70, #2e6b8f, #3fa3cf)"
+         Helper.className="Helper HelperTer"
         Helper.style.left="2%"
     }
      else if(SostSite==="Test1"){
         test1.style.display="block"
         const time=setTimeout(()=>{test1.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+        Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test2"){
         test2.style.display="block"
         const time=setTimeout(()=>{test2.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test3"){
         test3.style.display="block"
         const time=setTimeout(()=>{test3.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test4"){
         test4.style.display="block"
         const time=setTimeout(()=>{test4.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test5"){
         test5.style.display="block"
         const time=setTimeout(()=>{test5.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test6"){
         test6.style.display="block"
         const time=setTimeout(()=>{test6.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test7"){
         test7.style.display="block"
         const time=setTimeout(()=>{test7.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test8"){
         test8.style.display="block"
         const time=setTimeout(()=>{test8.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test9"){
         test9.style.display="block"
         const time=setTimeout(()=>{test9.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test10"){
         test10.style.display="block"
         const time=setTimeout(()=>{test10.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test11"){
         test11.style.display="block"
         const time=setTimeout(()=>{test11.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Test12"){
         test12.style.display="block"
         const time=setTimeout(()=>{test12.style.opacity="1"},600)
         FON.style.background="linear-gradient( #0d1f52, #164283, #0f5eaf)"
+         Helper.className="Helper HelperTer"
     }
     else if(SostSite==="Grafik1"){
         grafik1.style.display="block"
@@ -706,6 +739,7 @@ vlevo.addEventListener('click',function(event){
             else if(center<BoxGlavmenu.length-1){
                 BoxGlavmenu[center+1].classList.replace("pravoRaspolozhenie","pravoRaspolozhenieOff")
                 BoxGlavmenu[center].classList.replace("centerRaspolozhenie","pravoRaspolozhenie")
+                BoxGlavmenu[center-1].classList.replace("vlevoRaspolozhenie","centerRaspolozhenie")
                 if(BoxGlavmenu[center-2]){
                     BoxGlavmenu[center-2].classList.replace("vlevoRaspolozhenieOff","vlevoRaspolozhenie")
                 }
@@ -796,9 +830,15 @@ center.addEventListener('click',function(event){
              sessionStorage.setItem('SostSite', SostSite)
              Sostsite();}
         else if(rasGlavmenu===3){
+            if(!isMobile){
             SostSite="Gravmenu"
             sessionStorage.setItem('SostSite', SostSite)
-            Sostsite();
+            Sostsite();}
+            else if(isMobile){
+                texthelper.textContent="Извините, но редактор графиков доступен только для ПК!"
+        texthelper.style.opacity="1"
+        const time=setTimeout(()=>{texthelper.style.opacity="0"},6000)
+            }
         }
     }
     else if(SostSite==="Teorimenu"){
@@ -876,6 +916,14 @@ center.addEventListener('click',function(event){
             Sostsite();}
         else if(rasTermenu===19){    
             SostSite="Teoria19"
+            sessionStorage.setItem('SostSite', SostSite)
+            Sostsite();}
+        else if(rasTermenu===20){    
+            SostSite="Teoria20"
+            sessionStorage.setItem('SostSite', SostSite)
+            Sostsite();}
+        else if(rasTermenu===21){    
+            SostSite="Teoria21"
             sessionStorage.setItem('SostSite', SostSite)
             Sostsite();}
         else if(rasTermenu===22){    
@@ -1133,9 +1181,14 @@ Robot.addEventListener("click",function(event){
             Sostsite()
             Raseyes=1
             Lico.src="info/EyesOff.svg"
+            if(!isMobile){
             eyes.style.width="50%"
             eyes.style.left="25%"
-            eyes.style.top="40%"
+            eyes.style.top="40%"}
+            else if(isMobile){
+                eyes.style.left="27%"
+            eyes.style.top="12%"
+            }
         }
         else if(Raseyes===3){
             for(let i=0;i<BoxSostTeor.length;i++){
@@ -1260,6 +1313,8 @@ Robot.addEventListener("click",function(event){
     }
     })
 Lico.addEventListener("click",function(event){
+    if(!isMobile){
+    console.log("Пк")
     event.stopPropagation();
     if(SostSite === "Teoria1" || SostSite === "Teoria2" || SostSite === "Teoria3" || SostSite === "Teoria4" || SostSite === "Teoria5" || SostSite === "Teoria6" || SostSite === "Teoria7" || SostSite === "Teoria8" || SostSite === "Teoria9" || SostSite === "Teoria10" || SostSite === "Teoria11" || SostSite === "Teoria12" || SostSite === "Teoria13" || SostSite === "Teoria14" || SostSite === "Teoria15" || SostSite === "Teoria16" || SostSite === "Teoria17" || SostSite === "Teoria18" || SostSite === "Teoria19" || SostSite === "Teoria20" || SostSite === "Teoria21" || SostSite === "Teoria22" || SostSite === "Teoria23" || SostSite === "Teoria24" || SostSite === "Teoria25" || SostSite === "Teoria26" || SostSite === "Teoria27" || SostSite === "Teoria28" || SostSite === "Teoria29" || SostSite === "Teoria30" || SostSite === "Teoria31" || SostSite === "Teoria32" || SostSite === "Teoria33" || SostSite === "Teoria34" || SostSite === "Teoria35" || SostSite === "Teoria36" || SostSite === "Teoria37" || SostSite === "Teoria38" ){
         if(Raseyes===1){
@@ -1326,6 +1381,54 @@ Lico.addEventListener("click",function(event){
             eyes.style.left="25%"
             eyes.style.top="30%"
         }
+    }}
+    else if(isMobile){
+        console.log("Мобайл")
+        event.stopPropagation();
+    if(SostSite === "Teoria1" || SostSite === "Teoria2" || SostSite === "Teoria3" || SostSite === "Teoria4" || SostSite === "Teoria5" || SostSite === "Teoria6" || SostSite === "Teoria7" || SostSite === "Teoria8" || SostSite === "Teoria9" || SostSite === "Teoria10" || SostSite === "Teoria11" || SostSite === "Teoria12" || SostSite === "Teoria13" || SostSite === "Teoria14" || SostSite === "Teoria15" || SostSite === "Teoria16" || SostSite === "Teoria17" || SostSite === "Teoria18" || SostSite === "Teoria19" || SostSite === "Teoria20" || SostSite === "Teoria21" || SostSite === "Teoria22" || SostSite === "Teoria23" || SostSite === "Teoria24" || SostSite === "Teoria25" || SostSite === "Teoria26" || SostSite === "Teoria27" || SostSite === "Teoria28" || SostSite === "Teoria29" || SostSite === "Teoria30" || SostSite === "Teoria31" || SostSite === "Teoria32" || SostSite === "Teoria33" || SostSite === "Teoria34" || SostSite === "Teoria35" || SostSite === "Teoria36" || SostSite === "Teoria37" || SostSite === "Teoria38" ){
+        if(Raseyes===1){
+            Raseyes=2
+            Lico.src="info/ButtonBack.svg"
+            eyes.style.width="44%"
+            eyes.style.top="10%"
+        }
+        else if(Raseyes===2){
+            Raseyes=3
+            Lico.src="info/ButtonInfo.svg"
+            eyes.style.width="22%"
+            eyes.style.left="42%"
+            eyes.style.top="10%"
+        }
+        else if(Raseyes===3){
+            Raseyes=1
+            Lico.src="info/EyesOff.svg"
+            eyes.style.width="50%"
+            eyes.style.left="25%"
+            eyes.style.top="12%"
+        }
+    }
+    else if(SostSite === "Test1" || SostSite === "Test2" || SostSite === "Test3" || SostSite === "Test4" || SostSite === "Test5" || SostSite === "Test6" || SostSite === "Test7" || SostSite === "Test8" || SostSite === "Test9" || SostSite === "Test10" || SostSite === "Test11" || SostSite === "Test12"){
+        if(Raseyes===1){
+            Raseyes=2
+            Lico.src="info/ButtonBack.svg"
+            eyes.style.width="44%"
+            eyes.style.top="10%"
+        }
+        else if(Raseyes===2){
+            Raseyes=3
+            Lico.src="info/ButtonProf.svg"
+            eyes.style.width="25%"
+            eyes.style.left="38%"
+            eyes.style.top="10%"
+        }
+        else if(Raseyes===3){
+            Raseyes=1
+            Lico.src="info/EyesOff.svg"
+            eyes.style.width="50%"
+            eyes.style.left="25%"
+            eyes.style.top="10%"
+        }
+    }
     }
 })
 //Графики UML
