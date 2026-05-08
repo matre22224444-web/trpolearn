@@ -823,7 +823,7 @@ center.addEventListener('click',function(event){
             texthelper.textContent="Здесь вам доступно 38 лекций."
             texthelper.style.opacity="1"
             const time=setTimeout(()=>{texthelper.style.opacity="0"},5000)
-            Helper.style.left="5%"
+            Helper.style.left="3%"
              }
         else if(rasGlavmenu===2){
             SostSite="Testmenu"
