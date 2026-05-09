@@ -1611,7 +1611,7 @@ createGlPram.addEventListener("click", function(event) {
     const GlP = document.createElement('div');
     GlP.className = 'elipse';
     GlP.innerHTML = `
-        <img width='200px' src='info/ImgGladkiPram.svg'>
+        <img width='200px' src='info/ImgGladkiPram.webp'>
     `;
     GlP.style.position = 'absolute';
     GlP.style.cursor = 'grab';
@@ -1625,7 +1625,7 @@ createOb.addEventListener("click", function(event) {
     const ob = document.createElement('div');
     ob.className = 'elipse';
     ob.innerHTML = `
-        <img width='250px' src='info/Ob.svg'>
+        <img width='250px' src='info/Ob.webp'>
     `;
     ob.style.position = 'absolute';
     ob.style.cursor = 'grab';
@@ -1642,7 +1642,7 @@ createKryg.addEventListener("click", function(event) {
     const kryg = document.createElement('div');
     kryg.className = 'elipse';
     kryg.innerHTML = `
-        <img width='50px' src='info/Krug.svg'>
+        <img width='50px' src='info/Krug.webp'>
     `;
     kryg.style.position = 'absolute';
     kryg.style.cursor = 'grab';
@@ -1743,7 +1743,7 @@ kompo.addEventListener("click",function(event){
     const ko = document.createElement('div');
     ko.className = 'elipse';
     ko.innerHTML = `
-        <img width='45px' src='info/Kompo.svg'>
+        <img width='45px' src='info/Kompo.webp'>
     `;
     ko.style.position = 'absolute';
     ko.style.cursor = 'grab';
